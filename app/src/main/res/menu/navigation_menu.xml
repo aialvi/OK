@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/nav_lectures"
+        android:title="Lectures"
+        android:icon="@drawable/lectures"
+        />
+
+    <item
+        android:id="@+id/nav_schedules"
+        android:title="Schedules"
+        android:icon="@drawable/schedules"
+        />
+
+    <item
+        android:id="@+id/nav_attendance"
+        android:title="Attendance"
+        android:icon="@drawable/attendance"
+        />
+
+    <item
+        android:id="@+id/nav_progress"
+        android:title="Progress"
+        android:icon="@drawable/progress"
+        />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log Out"
+        android:icon="@drawable/logout"
+        />
+
+
+</menu>

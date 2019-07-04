@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".SetupActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_profile_image"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/profile" />
+
+
+    <EditText
+        android:id="@+id/setup_id_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/id_number"
+        android:ems="10"
+        android:hint="ID Number"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/setup_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:autofillHints=""
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/full_name"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/setup_contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/phone"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/setup_information_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/button"
+        android:padding="5dp"
+        android:text="SAVE"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+</RelativeLayout>
