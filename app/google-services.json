@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "1067795138493",
-    "firebase_url": "https://optimizingknowledgefirebase.firebaseio.com",
-    "project_id": "optimizingknowledgefirebase",
-    "storage_bucket": "optimizingknowledgefirebase.appspot.com"
+    "project_number": "532755906694",
+    "firebase_url": "https://optimizingknowledgefb.firebaseio.com",
+    "project_id": "optimizingknowledgefb",
+    "storage_bucket": "optimizingknowledgefb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1067795138493:android:9d76b075377e470e",
+        "mobilesdk_app_id": "1:532755906694:android:9d76b075377e470e",
         "android_client_info": {
           "package_name": "com.optimizingknowledge.ok"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1067795138493-v8aej0agc0p9d8hv2osrbii93vp90cof.apps.googleusercontent.com",
+          "client_id": "532755906694-14kpd83fom7hln05mcgtri1l9837tvb6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.optimizingknowledge.ok",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "1067795138493-u3f5ojc1ivslmqr8g83hrv4sfmivdrn8.apps.googleusercontent.com",
+          "client_id": "532755906694-3e2uubhs0ab0bjqhvqsh0s3tadj8uah9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBRsNlHh3NvrPaZp_RizVUChE8_2yAciAQ"
+          "current_key": "AIzaSyBGscIX02zPvM5-V0c_Wy2bPFKQZ74JIk4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1067795138493-u3f5ojc1ivslmqr8g83hrv4sfmivdrn8.apps.googleusercontent.com",
+              "client_id": "532755906694-3e2uubhs0ab0bjqhvqsh0s3tadj8uah9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
