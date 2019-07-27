@@ -62,11 +62,10 @@
         android:id="@+id/register_create_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="480dp"
+        android:layout_alignParentBottom="true"
         android:background="@drawable/button"
         android:padding="5dp"
-        android:text="CREATE ACCOUNT"
+        android:text="@string/reg_create_account"
         android:textColor="@color/colorAccent"
         android:textSize="20sp" />
 </RelativeLayout>
