@@ -8,4 +8,8 @@
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="reg_create_account">CREATE ACCOUNT</string>
+    <string name="lectures">Lectures</string>
+    <string name="schedules">Schedules</string>
+    <string name="attendance">Attendance</string>
+    <string name="progress">Progress</string>
 </resources>

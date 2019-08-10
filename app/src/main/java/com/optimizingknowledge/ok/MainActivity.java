@@ -3,8 +3,10 @@ package com.optimizingknowledge.ok;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.RecyclerView;
+
 
 
 import com.google.android.material.navigation.NavigationView;
@@ -27,7 +29,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private NavigationView navigationView;
     private DrawerLayout drawerLayout;
@@ -36,12 +38,20 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar mToolbar;
     private FirebaseAuth mAuth;
     private DatabaseReference UsersRef;
+    private CardView lecturesCardId, schedulesCardId, attendanceCardId, progressCardId;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        lecturesCardId = findViewById(R.id.lecturessId);
+        schedulesCardId = findViewById(R.id.schedulesId);
+        attendanceCardId  = findViewById(R.id.attendanceId);
+        progressCardId = findViewById(R.id.progressId);
+
 
         mAuth = FirebaseAuth.getInstance();
         UsersRef = FirebaseDatabase.getInstance().getReference().child("Users");
@@ -67,6 +77,13 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+        lecturesCardId.setOnClickListener(this);
+        schedulesCardId.setOnClickListener(this);
+        attendanceCardId.setOnClickListener(this);
+        progressCardId.setOnClickListener(this);
+
+
     }
 
     @Override
@@ -171,4 +188,37 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onClick(View view) {
+        switch (view.getId())
+        {
+            case R.id.lecturessId:
+            {
+                Intent lectureIntent = new Intent(MainActivity.this, LecturesActivity.class);
+                startActivity(lectureIntent);
+                break;
+            }
+
+            case R.id.schedulesId:
+            {
+                Intent schedulesIntent = new Intent(MainActivity.this, SchedulesActivity.class);
+                startActivity(schedulesIntent);
+                break;
+            }
+
+            case R.id.attendanceId:
+            {
+                Intent attendanceIntent = new Intent(MainActivity.this, AttendanceActivity.class);
+                startActivity(attendanceIntent);
+                break;
+            }
+
+            case R.id.progressId:
+            {
+                Intent progressIntent = new Intent(MainActivity.this, ProgressActivity.class);
+                startActivity(progressIntent);
+                break;
+            }
+        }
+    }
 }

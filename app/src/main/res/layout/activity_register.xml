@@ -7,6 +7,8 @@
     android:background="@drawable/login"
     tools:context=".RegisterActivity">
 
+
+
     <ImageView
         android:id="@+id/register_icon"
         android:layout_width="150dp"
@@ -30,33 +32,33 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:padding="10dp" />
+        android:padding="5dp" />
 
     <EditText
         android:id="@+id/register_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="270dp"
         android:background="@drawable/inputs"
         android:drawableLeft="@drawable/password"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:padding="10dp" />
+        android:padding="5dp" />
 
     <EditText
         android:id="@+id/register_confirm_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="330dp"
         android:background="@drawable/inputs"
         android:drawableLeft="@drawable/password"
         android:ems="10"
         android:hint="Confirm Password"
         android:inputType="textPassword"
-        android:padding="10dp" />
+        android:padding="5dp" />
 
     <Button
         android:id="@+id/register_create_account"
@@ -64,8 +66,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@drawable/button"
-        android:padding="5dp"
+        android:padding="10dp"
         android:text="@string/reg_create_account"
         android:textColor="@color/colorAccent"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
+
+
+
 </RelativeLayout>

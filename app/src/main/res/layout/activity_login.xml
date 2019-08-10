@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="292dp"
+        android:layout_marginTop="294dp"
         android:background="@drawable/inputs"
         android:drawableLeft="@drawable/password"
         android:ems="10"
@@ -54,18 +54,19 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="400dp"
         android:background="@drawable/button"
-        android:padding="5dp"
+        android:padding="10dp"
         android:text="@string/sign_in"
         android:textColor="@color/colorAccent"
-        android:textSize="15sp" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/text23"
+        android:id="@+id/dont_have_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="61dp"
+        android:layout_marginBottom="65dp"
+        android:textColor="@color/colorAccent"
         android:text="@string/don_t_have_an_account_create_one" />
 
     <Button
@@ -74,10 +75,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@drawable/button"
-        android:padding="5dp"
+        android:padding="10dp"
         android:text="@string/create_account"
         android:textColor="@color/colorAccent"
-        android:textSize="15sp" />
+        android:textSize="18sp" />
 
 
 
